@@ -1,0 +1,2217 @@
+fileFormatVersion: 2
+guid: b06b84f7c04ad0f499b08017914151f9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1024
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430202559c35a0a4daacb0235abe4380
+      internalID: 1769511921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1024
+        width: 30
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed20f00d6e0d68c4a99ae3012c8d0eeb
+      internalID: -157505616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1024
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949314ddbf1d69b498ffac67960b3648
+      internalID: 1884953626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1024
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eee727f846ce34da589df3d691d78f
+      internalID: 3467479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1026
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90877b5e37ed42f488f2fd0a735db83e
+      internalID: -324776775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1029
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854f433207e666a4182ebbd82bd628e3
+      internalID: -377573145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1024
+        width: 28
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7605e45c893e1b84da836d0416b1457c
+      internalID: -301623421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1029
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4244dd2e152065c4d8a242d18ed54a2b
+      internalID: 34254004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_8
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1025
+        width: 8
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fb61164341d3d45a2024491d713300
+      internalID: -1268825164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 960
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7865edc27e1a614a8b1bb61b8ac75c1
+      internalID: 586047799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 960
+        width: 19
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b584d7da7a06c354190b3517713dadd0
+      internalID: 433729186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 896
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1b253e8e94b9640ab1f7352913b067
+      internalID: -223846817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 896
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86be98163973337498f5db442b474ca0
+      internalID: 1054837676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 896
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ab30240e129ba4a8a0d68299d51068
+      internalID: -652168820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 896
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e1e8e46655cb84ebff2cf0fcaec16f
+      internalID: -1876345731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 832
+        width: 41
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cdf3ed6ccba4c47be3650eaa45c241
+      internalID: -1009649046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 832
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0560ba907793ea54dafefe13f79af3d9
+      internalID: -457519519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 834
+        width: 30
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede84def07c24334da4a4d92482b62b3
+      internalID: -2096037645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 832
+        width: 35
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7717c763724796840ba8ecc23b609407
+      internalID: 1107660079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 832
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f90818a3fb799458452ceee556203e
+      internalID: 822451661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 834
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec598cacd17f6f1448cc2e05a97f5596
+      internalID: -485829003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_21
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 832
+        width: 41
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb0159a4b2636b4184206833eebb0de
+      internalID: -940626451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 768
+        width: 39
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70a0d202a346684984c5ae58082359f
+      internalID: -1101441651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_23
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 769
+        width: 45
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cf56b04b0cbc9439308a74f030a595
+      internalID: -2023152627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 771
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915244a3ade4e40488adda307e72bd14
+      internalID: -1971157832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_25
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 769
+        width: 23
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04b3f897ed3cba4e9e474634f399ce8
+      internalID: -36741561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 768
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcaffe17f831e444b5208f7bae59f03
+      internalID: -417740710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_27
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 769
+        width: 42
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41078b1bd9e7e404786eb2700d225a33
+      internalID: -626365942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 704
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9314c9c3c20144f842368bc8464d40
+      internalID: 973558758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 704
+        width: 48
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf6281af62249c4db916e793c7831e5
+      internalID: -2078740277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_30
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 723
+        width: 24
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8491260b538b8640ac4fd8f14a0bcf9
+      internalID: -1917502123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_31
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 723
+        width: 26
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2c01a97a358724db8f00e28398c197
+      internalID: 995392886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 723
+        width: 26
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9992f015e2ba79147bd57a6356e75edb
+      internalID: -213762787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_33
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 734
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e686e0b547e6c314fa32d3293d3c07bf
+      internalID: 1762122882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_34
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 729
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbabee2d666c6c04b9f893c1c729a289
+      internalID: -1298062028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 724
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4770d9d0abefd48b1aa1f27a6d678e
+      internalID: -643064430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 643
+        width: 46
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c786cb950ab934a92805adaf247fce
+      internalID: -740645136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 642
+        width: 54
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb6f6a1baa128f45a8ca7e9543a3af2
+      internalID: -769150122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_38
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 640
+        width: 55
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c5d6f08d48f644ca29a6859d78ffab
+      internalID: 1415477252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 576
+        width: 32
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0586f19bbb33084090a7b3cda70e951
+      internalID: -875694967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 576
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf6b9e33411e164cb08f7ae6093d192
+      internalID: 1699216553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc02d1d1b802a24ca75794b92ad69e0
+      internalID: -905829914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_42
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 576
+        width: 37
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d67ff525cb5fc4f8c9e8dc6f9d9cff
+      internalID: 1521118118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_43
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 576
+        width: 38
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2deeed3c1fba28d49b5e555760de85b7
+      internalID: -134704024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_44
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 576
+        width: 45
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec3efd858aa48c49830ff92db8195aa
+      internalID: 1764504335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_45
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 576
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66991e091eea27a4582f47ca66e3abc8
+      internalID: 1020754344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_46
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 576
+        width: 45
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37209508c73c86d43b4773ec2fcee356
+      internalID: -49609570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_47
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 512
+        width: 34
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c27c56fe0aec214a8643cc595e15cf0
+      internalID: 1727152475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_48
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 512
+        width: 35
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb83ae9c22e9bb478beef9d6a6a2b2e
+      internalID: -2039610470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_49
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 512
+        width: 40
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd3064c89b515e4b856e1af5288ad0f
+      internalID: 570929190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_50
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 512
+        width: 28
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4978691fed4f27742898031052cf375e
+      internalID: -725878027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_51
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 512
+        width: 37
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e626052ec0befc947b096e5e28ae6b55
+      internalID: 1415275299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_52
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 512
+        width: 31
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d64394914b0b07429017721f2bc33dc
+      internalID: 1664706643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_53
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 512
+        width: 55
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97651fa7ebe5f3a4492f593c022855d2
+      internalID: 1135095919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_54
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 512
+        width: 42
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7478f66f9143e40bd5989ae8b9dbe3
+      internalID: 523364537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_55
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 448
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c34671658d86a54ca570cd9d27a6d40
+      internalID: -1440071019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_56
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 448
+        width: 19
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cac0a06cb9e8344ba303d82f0082353
+      internalID: -2108008280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_57
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 384
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d6036107652484d9f0e843f1082c1a
+      internalID: -742904150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_58
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 384
+        width: 27
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f9118934f24704081e23146ba0f149
+      internalID: 1012720863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_59
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 384
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4696247d3cd62a448e58b36ec6b3c36
+      internalID: 1488573125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_60
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 384
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b17a32acec4b44a9fbc781f6912804
+      internalID: -511573106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_61
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 320
+        width: 41
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca177d1d245b9a446aa0af65928e25eb
+      internalID: 792330345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_62
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 320
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1f48384fc30134cbecb9dad7c179a9
+      internalID: -1649142048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 322
+        width: 30
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185de066ec956d64f8ddae0af0099e4f
+      internalID: -1969328441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 320
+        width: 35
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b3b59d5ed603343b5f63b48b93435c
+      internalID: -1835543130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_65
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 320
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9837f70cf69148544a9ad59938a40ed8
+      internalID: -1973610755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_66
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 322
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f565bd761ec88814c8434e68af835740
+      internalID: 1331063860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_67
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 320
+        width: 41
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3c328b09a57a447915417cf19f9932
+      internalID: -230616911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_68
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 256
+        width: 39
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d381db769cc6b0244a796568c36f6f9e
+      internalID: -1714419176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_69
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 257
+        width: 45
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c1c6ef91370aa4689d1c5acb3ce282
+      internalID: 1873824039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_70
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 259
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb166f5111f95642b75d8318fb28c8c
+      internalID: 1850063775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_71
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 257
+        width: 23
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664e17474b375bf41844f6c76e72be7e
+      internalID: -1296509871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_72
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 256
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37904fe2efcf28d4d88a179f5c069551
+      internalID: 1351087229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_73
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 257
+        width: 42
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5856b7b9969b8a64ebb134537863abbf
+      internalID: 2102969273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_74
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c6c3f883e05b44d93b0dcc4fe034a1
+      internalID: -210562473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_75
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 192
+        width: 48
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e08908aae3fbe449ac06a826a9c058
+      internalID: 1904508200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_76
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 131
+        width: 46
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60610551227e4174a9d4355e969aa5a7
+      internalID: 701181895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_77
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 130
+        width: 54
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d665816b35a684b8e043bf395f5074
+      internalID: 506784858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_78
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 128
+        width: 55
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b18168912e369e428abde10e77f14e8
+      internalID: 2012219909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_79
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 64
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5217425dda0994997541443ee9e63b
+      internalID: -1803942461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_80
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 64
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecfc723f470585418b20ca588e1eca0
+      internalID: 501125823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_81
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 64
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488e06892d065af4aaeb3191dab4e5a4
+      internalID: 361829145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 64
+        width: 39
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a72f1c02d5ff5d4e8a14d98a0957ce8
+      internalID: -1639732860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_83
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 64
+        width: 38
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244cc13d30e01cb40a6fe83374f45ac2
+      internalID: -1389520730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_84
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 64
+        width: 45
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51edd7f59c1a34144ba72a839b4bc463
+      internalID: -762776091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_85
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 64
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c18d12f9f0c4f9469acc253c14fa9ee
+      internalID: 1743966309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_86
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 64
+        width: 45
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0100818d342f54c4f9dd369ca757c222
+      internalID: 1938598962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_87
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 34
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5f1ba1ed4c1e74bb979c4084100bb3
+      internalID: 635970292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_88
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 35
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9f458839a6cef4dac18ee880ccdc92
+      internalID: -126004083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_89
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 40
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4acb036ae7f7074788dba80e4876fb5
+      internalID: -1003757781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 28
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619e4760bcde8dd49a5101e0134767d1
+      internalID: -1223032407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_91
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 37
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97c8ab8c93fce7458b1d7824ef9d86e
+      internalID: 1417611422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_92
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 31
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd983f346bcc2fa408e5ec09e3a1b2fd
+      internalID: -1787497553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_93
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 55
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803d46ba621a84e47bf227cc193195d6
+      internalID: -1777660324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mordecai_Spritesheed_94
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 0
+        width: 42
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53ec25470e4a10418e4af90f97164ce
+      internalID: -2112115639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mordecai_Spritesheed_0: 1769511921
+      Mordecai_Spritesheed_1: -157505616
+      Mordecai_Spritesheed_10: 433729186
+      Mordecai_Spritesheed_11: -223846817
+      Mordecai_Spritesheed_12: 1054837676
+      Mordecai_Spritesheed_13: -652168820
+      Mordecai_Spritesheed_14: -1876345731
+      Mordecai_Spritesheed_15: -1009649046
+      Mordecai_Spritesheed_16: -457519519
+      Mordecai_Spritesheed_17: -2096037645
+      Mordecai_Spritesheed_18: 1107660079
+      Mordecai_Spritesheed_19: 822451661
+      Mordecai_Spritesheed_2: 1884953626
+      Mordecai_Spritesheed_20: -485829003
+      Mordecai_Spritesheed_21: -940626451
+      Mordecai_Spritesheed_22: -1101441651
+      Mordecai_Spritesheed_23: -2023152627
+      Mordecai_Spritesheed_24: -1971157832
+      Mordecai_Spritesheed_25: -36741561
+      Mordecai_Spritesheed_26: -417740710
+      Mordecai_Spritesheed_27: -626365942
+      Mordecai_Spritesheed_28: 973558758
+      Mordecai_Spritesheed_29: -2078740277
+      Mordecai_Spritesheed_3: 3467479
+      Mordecai_Spritesheed_30: -1917502123
+      Mordecai_Spritesheed_31: 995392886
+      Mordecai_Spritesheed_32: -213762787
+      Mordecai_Spritesheed_33: 1762122882
+      Mordecai_Spritesheed_34: -1298062028
+      Mordecai_Spritesheed_35: -643064430
+      Mordecai_Spritesheed_36: -740645136
+      Mordecai_Spritesheed_37: -769150122
+      Mordecai_Spritesheed_38: 1415477252
+      Mordecai_Spritesheed_39: -875694967
+      Mordecai_Spritesheed_4: -324776775
+      Mordecai_Spritesheed_40: 1699216553
+      Mordecai_Spritesheed_41: -905829914
+      Mordecai_Spritesheed_42: 1521118118
+      Mordecai_Spritesheed_43: -134704024
+      Mordecai_Spritesheed_44: 1764504335
+      Mordecai_Spritesheed_45: 1020754344
+      Mordecai_Spritesheed_46: -49609570
+      Mordecai_Spritesheed_47: 1727152475
+      Mordecai_Spritesheed_48: -2039610470
+      Mordecai_Spritesheed_49: 570929190
+      Mordecai_Spritesheed_5: -377573145
+      Mordecai_Spritesheed_50: -725878027
+      Mordecai_Spritesheed_51: 1415275299
+      Mordecai_Spritesheed_52: 1664706643
+      Mordecai_Spritesheed_53: 1135095919
+      Mordecai_Spritesheed_54: 523364537
+      Mordecai_Spritesheed_55: -1440071019
+      Mordecai_Spritesheed_56: -2108008280
+      Mordecai_Spritesheed_57: -742904150
+      Mordecai_Spritesheed_58: 1012720863
+      Mordecai_Spritesheed_59: 1488573125
+      Mordecai_Spritesheed_6: -301623421
+      Mordecai_Spritesheed_60: -511573106
+      Mordecai_Spritesheed_61: 792330345
+      Mordecai_Spritesheed_62: -1649142048
+      Mordecai_Spritesheed_63: -1969328441
+      Mordecai_Spritesheed_64: -1835543130
+      Mordecai_Spritesheed_65: -1973610755
+      Mordecai_Spritesheed_66: 1331063860
+      Mordecai_Spritesheed_67: -230616911
+      Mordecai_Spritesheed_68: -1714419176
+      Mordecai_Spritesheed_69: 1873824039
+      Mordecai_Spritesheed_7: 34254004
+      Mordecai_Spritesheed_70: 1850063775
+      Mordecai_Spritesheed_71: -1296509871
+      Mordecai_Spritesheed_72: 1351087229
+      Mordecai_Spritesheed_73: 2102969273
+      Mordecai_Spritesheed_74: -210562473
+      Mordecai_Spritesheed_75: 1904508200
+      Mordecai_Spritesheed_76: 701181895
+      Mordecai_Spritesheed_77: 506784858
+      Mordecai_Spritesheed_78: 2012219909
+      Mordecai_Spritesheed_79: -1803942461
+      Mordecai_Spritesheed_8: -1268825164
+      Mordecai_Spritesheed_80: 501125823
+      Mordecai_Spritesheed_81: 361829145
+      Mordecai_Spritesheed_82: -1639732860
+      Mordecai_Spritesheed_83: -1389520730
+      Mordecai_Spritesheed_84: -762776091
+      Mordecai_Spritesheed_85: 1743966309
+      Mordecai_Spritesheed_86: 1938598962
+      Mordecai_Spritesheed_87: 635970292
+      Mordecai_Spritesheed_88: -126004083
+      Mordecai_Spritesheed_89: -1003757781
+      Mordecai_Spritesheed_9: 586047799
+      Mordecai_Spritesheed_90: -1223032407
+      Mordecai_Spritesheed_91: 1417611422
+      Mordecai_Spritesheed_92: -1787497553
+      Mordecai_Spritesheed_93: -1777660324
+      Mordecai_Spritesheed_94: -2112115639
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
