@@ -1,1 +1,5 @@
 # Gang-Em-Up-JoanForcadell_OscarGarcia_RicardoFuster
+Nuestro juego se basa en el genero de beat-em up al estilo del Double Dragon en 2D pixelart. Con escenarios y personajes de una serie de animación. Con esta Serie es la de historias corrientes uno de sus personajes que salen es Mordecai (nuestro personaje principal) que debe enfrentarse a su compañero o rival Rigby ( que es el jefe final) con sus compinches de esclavos punkys.
+Las mecánicas que estan en nuestro juego son las basicas de un juego del estilo mencionado, es decir serian unos enemigos que vienen por oleadas y al terminar saldria un boss final al estilo Street Fighter, moverse con los controles mas comunes del teclado (a,w,s,d o las flechas) y una tecla especial para golpear que es la Z.  
+Tambiém hemos implementado el seguimiento de la camara que sigue al personaje ahacia la derecha o la izquierda con un poco de delay para hacerlo más real de un videojuego. 
+También hemos tenido en cuenta varias opciones de combos y sistemas de combate que tal vez por complicado quitaremos o añadiremos dependiendo de ciertos factores posteriores.
