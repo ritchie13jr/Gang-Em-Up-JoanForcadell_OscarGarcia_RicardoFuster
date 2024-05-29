@@ -9,7 +9,12 @@ public class AttackBehavior : MonoBehaviour
     public float attackRange;
     public LayerMask enemyLayers;
     public GameObject attacker;
-    public void Attack(float damage)
+    private HealthPresenter healthPresenter;
+    private void Update() 
+    {
+        healthPresenter = GetComponent<HealthPresenter>();
+    }
+    public void Attack(int damage)
     {
        
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
@@ -18,7 +23,8 @@ public class AttackBehavior : MonoBehaviour
             if (attacker.CompareTag(col.tag)) {  }
             else 
             {
-              col.GetComponent<Health>().TakeDamage(damage);
+                healthPresenter?.Damage(damage);
+                col.GetComponent<Health>().TakeDamage(damage);
             }
            
         }

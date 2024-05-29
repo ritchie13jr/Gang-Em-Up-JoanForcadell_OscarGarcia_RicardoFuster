@@ -40,7 +40,7 @@ public class EnemyController2 : MonoBehaviour
             if (attackTimer >= 1f) 
             {
                 
-                attackBehavior.Attack(25f);
+                attackBehavior.Attack(25);
                 attackTimer = 0;
             }
         }

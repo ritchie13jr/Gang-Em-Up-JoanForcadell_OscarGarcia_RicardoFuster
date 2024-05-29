@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             if (an != null) { an.SetTrigger("SendPunch"); }
-            attackBehavior.Attack(50f);
+            attackBehavior.Attack(50);
         }
     }
 }
