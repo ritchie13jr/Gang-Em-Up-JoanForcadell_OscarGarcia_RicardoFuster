@@ -18,11 +18,11 @@ public class AttackBehavior : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         foreach (Collider2D col in hitEnemies) 
         {
-            if (col.tag == "player") { healthPresenter?.Damage(Convert.ToInt32(damage));}
-            else if (attacker.CompareTag(col.tag)) {  }
+           
+            if (attacker.CompareTag(col.tag)) {  }
             else 
             {
-              col.GetComponent<Health>().TakeDamage(damage);
+              col.GetComponent<HealthPresenter>().Damage((int)damage);
             }
            
         }

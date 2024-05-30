@@ -46,9 +46,9 @@ public class PlayersHealth : MonoBehaviour
     {
         if (character.CompareTag("Enemy"))
         {
-            gameObject.SetActive(false);
+            character.SetActive(false);
         }
         else
-        Destroy(gameObject);
+        Destroy(character);
     }
 }
