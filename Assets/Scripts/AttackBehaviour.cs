@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -9,13 +10,16 @@ public class AttackBehavior : MonoBehaviour
     public float attackRange;
     public LayerMask enemyLayers;
     public GameObject attacker;
+    [SerializeField] HealthPresenter healthPresenter;
+    
     public void Attack(float damage)
     {
        
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         foreach (Collider2D col in hitEnemies) 
         {
-            if (attacker.CompareTag(col.tag)) {  }
+            if (col.tag == "player") { healthPresenter?.Damage(Convert.ToInt32(damage));}
+            else if (attacker.CompareTag(col.tag)) {  }
             else 
             {
               col.GetComponent<Health>().TakeDamage(damage);
