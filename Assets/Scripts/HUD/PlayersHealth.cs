@@ -5,50 +5,68 @@ using System;
 
 public class PlayersHealth : MonoBehaviour
 {
- public event Action HealthChanged;
+   public event Action HealthChanged;
+    [SerializeField] private int minHealth = 0;
+    [SerializeField] private int maxHealth = 100;
+    private int currentHealth;
+    public int CurrentHealth { get => currentHealth; set => currentHealth = value; }
+    public int MinHealth => minHealth;
+    public int MaxHealth => maxHealth;
+    public GameObject character;
 
- [SerializeField] private int minHealth = 0;
- [SerializeField] private int maxHealth = 100;
- private int currentHealth;
- public int CurrentHealth {get => currentHealth; set => currentHealth = value;}
- public int MinHealth => minHealth;
- public int MaxHealth => maxHealth;
- public GameObject character;
- 
- public void Increment (int amount) 
- {
-    currentHealth += amount;
-    currentHealth = Math.Clamp(currentHealth, minHealth, maxHealth);
-    UpdateHealth(); 
- }
- public void Decrement (int amount) 
- {
-    currentHealth -= amount;
-    currentHealth = Math.Clamp(currentHealth, minHealth, maxHealth);
-     if (currentHealth <= 0)
+    void Awake()
+    {
+        if (character == null)
         {
-            currentHealth = 0;
+            character = this.gameObject;
+        }
+        currentHealth = maxHealth;  // Inicializa currentHealth con maxHealth
+    }
+
+    public void Increment(int amount)
+    {
+        currentHealth += amount;
+        currentHealth = Mathf.Clamp(currentHealth, minHealth, maxHealth);  // Usa Mathf en lugar de Math
+        UpdateHealth();
+    }
+
+    public void Decrement(int amount)
+    {
+        currentHealth -= amount;
+        currentHealth = Mathf.Clamp(currentHealth, minHealth, maxHealth);  // Usa Mathf en lugar de Math
+        UpdateHealth();
+        if (currentHealth <= 0)
+        {
             Die();
         }
-    UpdateHealth();
- }
- public void Restore() 
- {
-    currentHealth = maxHealth;
-    UpdateHealth();
- }
+    }
 
- public void UpdateHealth() 
- {
-    HealthChanged.Invoke();
- }
-   private void Die()
+    public void Restore()
     {
-        if (character.CompareTag("Enemy"))
+        currentHealth = maxHealth;
+        UpdateHealth();
+    }
+
+    public void UpdateHealth()
+    {
+        if (HealthChanged != null)
         {
-            character.SetActive(false);
+            HealthChanged.Invoke();
         }
-        else
-        Destroy(character);
+    }
+
+    private void Die()
+    {
+        if (character != null)
+        {
+            if (character.CompareTag("Enemy"))
+            {
+                character.SetActive(false);
+            }
+            else
+            {
+                Destroy(character);
+            }
+        }
     }
 }

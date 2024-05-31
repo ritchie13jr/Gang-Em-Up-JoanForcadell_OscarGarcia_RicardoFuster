@@ -18,6 +18,8 @@ GameObject:
   - component: {fileID: 8080517081631981755}
   - component: {fileID: 7332542450268609149}
   - component: {fileID: 4534459723958116134}
+  - component: {fileID: 8729595515995724113}
+  - component: {fileID: -5036600078370272471}
   m_Layer: 6
   m_Name: Enemigo
   m_TagString: Enemy
@@ -239,6 +241,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   attacker: {fileID: 4900420394961208894}
+  healthPresenter: {fileID: 0}
 --- !u!114 &4534459723958116134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,6 +257,37 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   character: {fileID: 4900420394961208894}
+--- !u!114 &8729595515995724113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4900420394961208894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea691f19befdf04e857d1c7a6643d53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minHealth: 0
+  maxHealth: 100
+  character: {fileID: 0}
+--- !u!114 &-5036600078370272471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4900420394961208894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23c8356db6bfe348a1ccc36b8bf4e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 8729595515995724113}
+  healthUI: {fileID: 0}
+  healthBar: {fileID: 0}
+  healthValue: {fileID: 0}
 --- !u!1 &5766297484701864205
 GameObject:
   m_ObjectHideFlags: 0
