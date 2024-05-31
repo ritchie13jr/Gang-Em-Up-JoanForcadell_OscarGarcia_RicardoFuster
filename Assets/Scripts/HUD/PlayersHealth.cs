@@ -5,7 +5,7 @@ using System;
 
 public class PlayersHealth : MonoBehaviour
 {
-   public event Action HealthChanged;
+    public event Action HealthChanged;
     [SerializeField] private int minHealth = 0;
     [SerializeField] private int maxHealth = 100;
     private int currentHealth;

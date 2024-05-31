@@ -12,6 +12,7 @@ public class AttackBehavior : MonoBehaviour
     public GameObject attacker;
     [SerializeField] HealthPresenter healthPresenter;
     
+    
     public void Attack(float damage)
     {
        
