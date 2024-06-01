@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class HealthPresenter : MonoBehaviour
 {
-    //GameObject
     [Header("Model")]
     [SerializeField] PlayersHealth health;
 
@@ -20,7 +19,6 @@ public class HealthPresenter : MonoBehaviour
         {
             health.HealthChanged += OnHealthChanged;
         }
-
         Reset();
     }
 
@@ -38,7 +36,6 @@ public class HealthPresenter : MonoBehaviour
         health?.Decrement(amount);
         
     }
-
 
     public void Heal(int amount)
     {
@@ -74,6 +71,6 @@ public class HealthPresenter : MonoBehaviour
     void Update()
     {
         healthUI.SetPositionAndRotation(transform.position, healthUI.rotation);
+        healthBar.SetPositionAndRotation(transform.position - new Vector3(0,-2.2f,0), healthBar.rotation);
     }
-    
 }
