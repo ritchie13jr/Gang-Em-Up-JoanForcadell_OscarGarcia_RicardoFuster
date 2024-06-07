@@ -1,52 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
+    public static PauseMenu instance { get { return _instance; } set { _instance = value; }}
+    
+    private static PauseMenu _instance;
 
-    // Update is called once per frame
-    void Update()
+    void Awake() 
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (GameIsPaused)
-            {
-                Resume();
-            } else
-            {
-                Pause();
-            }
-        }
+       if (instance != null) 
+       {
+        Destroy(gameObject);
+       } 
+       else 
+       {
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+       }
     }
-
-    public void Resume()
+    void Start() 
     {
         PauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        GameIsPaused = false;
     }
-
-    public void Pause()
+    public void Resume() 
     {
-        PauseMenuUI.SetActive(true);
-        Time.timeScale = 0f;
-        GameIsPaused = true;
+        GameFlowController.instance.Resume();
     }
-
-    public void LoadMenu()
+    public void LoadMenu() 
     {
-        Time.timeScale = 1f;
-        Debug.Log("Loading menu...");
-        SceneManager.LoadScene("MainMenu");
+        GameFlowController.instance.LoadMenu();
     }
-
-    public void QuitGame()
+    public void QuitGame() 
     {
-        Debug.Log("Quitting game...");
-        Application.Quit();
+        GameFlowController.instance.QuitGame();
     }
 }
