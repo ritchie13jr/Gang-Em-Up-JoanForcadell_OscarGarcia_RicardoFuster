@@ -45,6 +45,10 @@ public class GameFlowController : MonoBehaviour
         }
     }
 
+    public void YouDied() 
+    {
+        YouDiedMenu.instance.gameObject.SetActive(true);
+    }
     public void Resume()
     {
         PauseMenu.instance.gameObject.SetActive(false);

@@ -7,8 +7,6 @@ public class MenuController : MonoBehaviour
 {
     // Start is called before the first frame update
    public static MenuController Instance = null;
-   GameObject optionsMenu;
-   GameObject exitPanel;
 
     void Awake()
     {
