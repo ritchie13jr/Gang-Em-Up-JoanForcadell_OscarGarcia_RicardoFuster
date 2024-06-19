@@ -2487,7 +2487,7 @@ GameObject:
   - component: {fileID: 978006397}
   - component: {fileID: 978006398}
   m_Layer: 0
-  m_Name: Ecenario
+  m_Name: Escenario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

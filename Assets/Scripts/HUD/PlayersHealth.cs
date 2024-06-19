@@ -13,14 +13,19 @@ public class PlayersHealth : MonoBehaviour
     public int MinHealth => minHealth;
     public int MaxHealth => maxHealth;
     public GameObject character;
+    private WaveSM waveSM;
 
     void Awake()
     {
         if (character == null)
         {
-            character = this.gameObject;
+            character = gameObject;
         }
         currentHealth = maxHealth;  // Inicializa currentHealth con maxHealth
+    }
+    void Start() 
+    {
+        waveSM = GameObject.Find("Escenario").GetComponent<WaveSM>();
     }
 
     public void Increment(int amount)
@@ -62,6 +67,7 @@ public class PlayersHealth : MonoBehaviour
             if (character.CompareTag("Enemy"))
             {
                 character.SetActive(false);
+                waveSM.betweenRounds.DefeatedEnemy();
             }
             else
             {

@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class BetweenRounds : BaseState
 {
-    private float timeBetweenRounds =3f;
     private float timeBetweenSpawn = 2f;
     private int enemiesPerWave;
     private int roundCount;
-    private int defeatedEnemies;
+    public int defeatedEnemies;
     private float elapsedTime;
     private GameObject enemy;
     private int enemyCount;
@@ -22,7 +21,6 @@ public class BetweenRounds : BaseState
     {
         base.Enter();
         enemyCount = 0;
-        if (roundCount == 2) { stateMachine.ChangeState(((WaveSM)stateMachine).bossRound); }
     }
     public override void Update()
     {
@@ -37,16 +35,19 @@ public class BetweenRounds : BaseState
         {
             GameObject enemy = PoolManager.Instance.RequestEnemy();
             elapsedTime = 0;
-
-            // en enemy hay que inicializar todos sus metodos o atributos
-            // y tambien en enemy SetInactive
             enemyCount++;
         } 
        }
+
+       if (defeatedEnemies == enemiesPerWave) { stateMachine.ChangeState(((WaveSM)stateMachine).bossRound);}
     }
     public override void Exit()
     {
         base.Exit();
-        enemiesPerWave += 5;
+    }
+    public void DefeatedEnemy() 
+    {
+        Debug.Log("We good");
+        defeatedEnemies++;
     }
 }
