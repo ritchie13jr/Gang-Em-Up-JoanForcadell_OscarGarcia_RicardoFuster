@@ -29,6 +29,6 @@ public class YouDiedMenu : MonoBehaviour
     }
     public void Retry() 
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex)
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

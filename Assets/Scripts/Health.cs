@@ -32,6 +32,7 @@ public class Health : MonoBehaviour
         if (character.CompareTag("Enemy"))
         {
             gameObject.SetActive(false);
+            
         }
         else
         Destroy(gameObject);
