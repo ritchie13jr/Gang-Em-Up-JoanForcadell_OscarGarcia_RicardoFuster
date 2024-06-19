@@ -65,6 +65,7 @@ public class PlayersHealth : MonoBehaviour
             }
             else
             {
+                GameFlowController.instance.YouDied();
                 Destroy(character);
             }
         }

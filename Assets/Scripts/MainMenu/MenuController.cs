@@ -7,8 +7,6 @@ public class MenuController : MonoBehaviour
 {
     // Start is called before the first frame update
    public static MenuController Instance = null;
-   GameObject optionsMenu;
-   GameObject exitPanel;
 
     void Awake()
     {
@@ -25,15 +23,15 @@ public class MenuController : MonoBehaviour
 
     public void LoadGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        GameFlowController.instance.LoadGame();
     }
     public void LoadLvl2() 
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +2);
+        GameFlowController.instance.LoadLvl2();
     }
 
     public void QuitGame()
     {
-        Application.Quit();
+        GameFlowController.instance.QuitGame();
     }
 }
