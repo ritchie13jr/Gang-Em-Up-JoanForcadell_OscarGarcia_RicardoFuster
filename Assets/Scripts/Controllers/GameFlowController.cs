@@ -78,9 +78,12 @@ public class GameFlowController : MonoBehaviour
     public void LoadLvl2() 
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +2);
-        _gameState = GameState.Finished;
+        _gameState = GameState.Playing;
     }
-
+    public void Win() 
+    {
+         VictoryWin.instance.gameObject.SetActive(true);
+    }
 
     public void QuitGame()
     {

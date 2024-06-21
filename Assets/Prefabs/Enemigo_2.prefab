@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 7666308750448251506}
   m_Layer: 6
   m_Name: Enemigo_2
-  m_TagString: Enemy
+  m_TagString: boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f33561937e7d2fa4cb756606fa9ba393, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseRange: 3
+  chaseRange: 5
 --- !u!114 &2004197352165292658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d940fba378c1d478bb00685e092cbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 150
   currentHealth: 0
   character: {fileID: 1035943270696062728}
 --- !u!114 &8747258426987016389
@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minHealth: 0
-  maxHealth: 100
+  maxHealth: 150
   character: {fileID: 0}
 --- !u!114 &7666308750448251506
 MonoBehaviour:

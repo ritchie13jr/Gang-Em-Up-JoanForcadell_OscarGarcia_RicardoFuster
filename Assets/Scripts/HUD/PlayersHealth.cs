@@ -69,6 +69,11 @@ public class PlayersHealth : MonoBehaviour
                 character.SetActive(false);
                 waveSM.betweenRounds.DefeatedEnemy();
             }
+            else if (character.CompareTag("boss")) 
+            {
+                character.SetActive(false);
+                GameFlowController.instance.Win();
+            }
             else
             {
                 GameFlowController.instance.YouDied();

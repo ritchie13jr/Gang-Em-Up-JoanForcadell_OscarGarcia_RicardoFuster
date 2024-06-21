@@ -7,6 +7,8 @@ public class PoolManager : MonoBehaviour
 {
     private static PoolManager instance;
         [SerializeField] private GameObject enemyPrefab;
+         [SerializeField] private GameObject finalEnemy;
+
         private List <GameObject> enemyPool;
         public int enemyAmount;
 
@@ -48,5 +50,9 @@ public class PoolManager : MonoBehaviour
             }
         }
         return null;
+    }
+    public void GimmeMyBoss()
+    {
+        Instantiate(finalEnemy, new Vector3(10,0,0), Quaternion.identity);
     }
 }

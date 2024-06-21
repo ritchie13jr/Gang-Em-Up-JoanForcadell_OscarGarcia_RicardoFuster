@@ -21,19 +21,18 @@ public class BetweenRounds : BaseState
     {
         base.Enter();
         enemyCount = 0;
+        roundCount++;
     }
     public override void Update()
     {
        base.Update();
-       
-       roundCount++;
        
        if (enemyCount < enemiesPerWave)
        {
         elapsedTime += Time.deltaTime;
         if (elapsedTime >= timeBetweenSpawn) 
         {
-            GameObject enemy = PoolManager.Instance.RequestEnemy();
+            enemy = PoolManager.Instance.RequestEnemy();
             elapsedTime = 0;
             enemyCount++;
         } 

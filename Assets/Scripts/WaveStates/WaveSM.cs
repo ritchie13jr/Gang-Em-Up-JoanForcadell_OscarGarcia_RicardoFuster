@@ -13,6 +13,7 @@ public class WaveSM : StateMachine
     public BetweenRounds betweenRounds;
      [HideInInspector]
      public BossRound bossRound;
+     public GameObject finalEnemy;
 
     private void Awake() 
     {

@@ -70,7 +70,10 @@ public class HealthPresenter : MonoBehaviour
 
     void Update()
     {
-        healthUI.SetPositionAndRotation(transform.position, healthUI.rotation);
-        healthBar.SetPositionAndRotation(transform.position - new Vector3(0,-2.2f,0), healthBar.rotation);
+        if (healthUI != null) 
+        {
+            healthUI.SetPositionAndRotation(transform.position, healthUI.rotation);
+             healthBar.SetPositionAndRotation(transform.position - new Vector3(0,-2.2f,0), healthBar.rotation);
+        }
     }
 }
